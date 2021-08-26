@@ -1,3 +1,5 @@
 export function isPalindrome(inputString) {
-  // TODO: write your code here
+  inputString = inputString.toLowerCase();
+  var reveseString = inputString.split("").reverse().join("")
+  return reveseString == inputString;
 }
